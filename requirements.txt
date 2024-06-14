@@ -1,0 +1,15 @@
+torch
+wandb
+tqdm
+argparse
+focal_loss
+transformers
+sentencepiece
+sacremoses
+pandas
+torchaudio
+git+https://github.com/mathiaszinnen/focal_loss_torch
+scikit-learn
+importlib-metadata
+ffmpeg-python
+ffmpeg
