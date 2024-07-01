@@ -422,7 +422,9 @@ class Trainer:
         logger.info(f"Printing the waveform {training_dataset[0][0]}")
         logger.info(f"Printing the shape of the waveform: {training_dataset[0][0].shape}")
         logger.info(f"Printing the shape of the labels: {training_dataset[0][1].shape}")
-        logger.info(f"Printing the shape of the transcription: {training_dataset[0][2].shape}")
+        
+        if self.params.text_feature_extractor != 'NoneTextExtractor':
+            logger.info(f"Printing the shape of the transcription: {training_dataset[0][2].shape}")
 
         # If we have data imblance, we need to set the class weights
         if self.params.weighted_loss:
