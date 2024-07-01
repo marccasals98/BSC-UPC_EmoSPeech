@@ -13,11 +13,17 @@ attention pooling mechanism. The proposed system has achieved the first position
 
 ## How to run the code
 1. Create a python environment (or Conda):
+
 `python -m venv your_environment`
+
 `source your_environment/bin/activate`
+
 2. Install requirements:
+
 `pip install -r requirements.txt`
+
 3. Run the desired training with SLURM:
+
 `sbatch shs/3_XLSR_ROBERTA-esp.sh`
 
 ## References
