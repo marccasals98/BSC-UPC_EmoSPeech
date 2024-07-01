@@ -37,7 +37,7 @@ TRAIN_DEFAULT_SETTINGS = {
     'learning_rate_scheduler' : 'NoneScheduler',
     'learning_rate' : 0.0001,
     'load_checkpoint' : False,
-    'log_file_folder' : './logs/train/',
+    'log_file_folder' : './slurm_logs/train/',
     'loss' : 'CrossEntropy',
     'max_epochs' : 25,
     'model_output_folder' : './models/',

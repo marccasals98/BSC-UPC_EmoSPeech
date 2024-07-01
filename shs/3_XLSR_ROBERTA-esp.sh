@@ -1,11 +1,11 @@
 #!/bin/bash
-#SBATCH -o /home/usuaris/veussd/marc.casals/EmoSPeech2024/logs/outputs/slurm-%j.out
-#SBATCH -e /home/usuaris/veussd/marc.casals/EmoSPeech2024/logs/errors/slurm-%j.err
+#SBATCH -o /logs/outputs/slurm-%j.out
+#SBATCH -e /logs/errors/slurm-%j.err
 #SBATCH -p veu             # Partition to submit to
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=32GB
 #SBATCH --gres=gpu:2
-#SBATCH --job-name=olive-wildflower
+#SBATCH --job-name=roberta-esp
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user=marc.casals@bsc.es
 
