@@ -34,7 +34,11 @@ Pan, R., García-Díaz, J. A., Rodríguez-García, M. Á., García-Sánchez, F.,
 Pan, R., García-Díaz, J. A., Rodríguez-García, M. Á., & Valencia-García, R. (2024). Spanish MEACorpus 2023: A multimodal speech-text corpus for emotion analysis in Spanish from natural environments. Computer Standards & Interfaces, 103856.
 
 ## Citing
+[1] M. Casals-Salvador, F. Costa, M. India, and J. Hernando, “BSC-UPC at EmoSPeech-IberLEF2024: Attention Pooling for Emotion Recognition,” Jul. 17, 2024, arXiv: arXiv:2407.12467. doi: 10.48550/arXiv.2407.12467.
 
+
+
+```bib
 @misc{casals-salvador_bsc-upc_2024,
 	title = {{BSC}-{UPC} at {EmoSPeech}-{IberLEF2024}: {Attention} {Pooling} for {Emotion} {Recognition}},
 	copyright = {Creative Commons Attribution 4.0 International Licence},
@@ -51,4 +55,5 @@ Pan, R., García-Díaz, J. A., Rodríguez-García, M. Á., & Valencia-García, R
 	keywords = {Electrical Engineering and Systems Science - Audio and Speech Processing, Speech Classification},
 	file = {arXiv Fulltext PDF:/home/marc/Zotero/storage/ERRS52GJ/Casals-Salvador et al. - 2024 - BSC-UPC at EmoSPeech-IberLEF2024 Attention Pooling for Emotion Recognition.pdf:application/pdf;arXiv.org Snapshot:/home/marc/Zotero/storage/UPSW93US/2407.html:text/html},
 }
+```
 
